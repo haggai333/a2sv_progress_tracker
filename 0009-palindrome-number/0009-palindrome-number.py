@@ -6,7 +6,7 @@ class Solution(object):
             
         while(b>0):
             a=(10*a)+(b%10)
-            b=b//10
+            b=b/10
          
         
         return a==x    
