@@ -6,8 +6,8 @@ class Solution(object):
         b=x
          
             
-        while(b>0):
-            a=10*a+(b%10)
+        while b>0:
+            a=10*a+b%10
             b=b/10
          
         
