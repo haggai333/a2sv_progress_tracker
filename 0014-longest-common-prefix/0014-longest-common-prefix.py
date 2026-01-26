@@ -10,7 +10,6 @@ class Solution(object):
                     continue
                 break
             
-            return answ
             a=answ
         return a
 
