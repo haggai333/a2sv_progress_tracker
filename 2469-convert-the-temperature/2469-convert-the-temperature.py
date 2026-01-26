@@ -1,5 +1,5 @@
 class Solution(object):
     def convertTemperature(self, celsius):
         
-        return [celsius+273.15,((celsius*1.8)+32)]
+        return [celsius+273.15,celsius*1.8+32]
         
