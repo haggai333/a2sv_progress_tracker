@@ -17,5 +17,7 @@ class Solution:
                     temp.append(j)
                 if rank[j]==-1 and i==1:
                     temp.append(j)
-            answer.append(sorted(temp))
+            answer.append(temp)
+        answer[0].sort()
+        answer[1].sort()
         return answer
