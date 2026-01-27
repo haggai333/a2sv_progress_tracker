@@ -6,9 +6,9 @@ class Solution:
             if i[0] not in rank:
                 rank[i[0]]=0
             if i[1] not in rank:
+                rank[i[1]]-=1
+            else:
                 rank[i[1]]=-1
-                continue
-            rank[i[1]]-=1
         
         for j in rank:
             if rank[j]==0:
