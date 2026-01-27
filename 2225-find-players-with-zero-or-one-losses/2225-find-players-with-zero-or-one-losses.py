@@ -5,7 +5,7 @@ class Solution:
         for i in matches:
             if i[0] not in rank:
                 rank[i[0]]=0
-            if i[1] not in rank:
+            if i[1] in rank:
                 rank[i[1]]-=1
             else:
                 rank[i[1]]=-1
