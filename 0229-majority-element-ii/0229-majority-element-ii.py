@@ -10,5 +10,5 @@ class Solution:
            
             if hashval[i]>len(nums)//3:
                 answer.append(i)
-                hashval[i]=0
+                hashval[i]=-100
         return answer
