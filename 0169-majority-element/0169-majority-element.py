@@ -6,8 +6,6 @@ class Solution:
                 hashval[i]+=1
             else:
                 hashval[i]=1
-        largest=nums[0]        
-        for i in hashval:
-            if hashval[i]>hashval[largest]:
-                largest=i
-        return largest
+               
+        
+        return max(hashval,key=hashval.get)
