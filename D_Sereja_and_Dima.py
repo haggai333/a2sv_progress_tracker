@@ -8,28 +8,28 @@ end=nocard-1
 for i in range(nocard):
     if turn==1:
         if cardlist[start]>cardlist[end]:
-            secondplayer+=cardlist[start]
+            firstplayer+=cardlist[start]
             start+=1
             turn=0
             continue
         else:
-            secondplayer+=cardlist[end]
+            firstplayer+=cardlist[end]
             end-=1
             turn=0
             continue
     else: 
         if cardlist[start]>cardlist[end]:
-            firstplayer+=cardlist[start]
+            secondplayer+=cardlist[start]
             start+=1
             turn=1
             continue
         else:
-            firstplayer+=cardlist[end]
+            secondplayer+=cardlist[end]
             end-=1
             turn=1
             continue   
 
-print(str(secondplayer)+" "+str(firstplayer))
+print(str(firstplayer)+" "+str(secondplayer))
 
 
     

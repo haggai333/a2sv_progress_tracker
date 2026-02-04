@@ -1,7 +1,6 @@
 n=int(input())
 stringval=input()
 setval=set()
-
 for i in stringval:
     setval.add(i.lower())
     
