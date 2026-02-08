@@ -13,6 +13,8 @@ class Solution:
         for i in words[0]:
             mini=376655
             for j in valuelist:
+                if i in answer:
+                    break
                 if i in j:
                     mini=min(j[i],mini)
                 else:
