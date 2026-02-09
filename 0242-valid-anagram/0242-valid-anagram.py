@@ -5,10 +5,7 @@ class Solution:
         ans={}
         ant={}
         for  i in range(len(s)):
-            if s[i] not in t:
-                return False
-            if t[i] not in s:
-                return False
+            
             if s[i] in ans:
                 ans[s[i]]+=1
             else:
