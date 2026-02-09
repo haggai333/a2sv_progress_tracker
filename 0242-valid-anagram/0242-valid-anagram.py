@@ -5,7 +5,6 @@ class Solution:
         ans={}
         ant={}
         for  i in range(len(s)):
-            
             if s[i] in ans:
                 ans[s[i]]+=1
             else:
