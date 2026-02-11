@@ -7,7 +7,7 @@ class Solution:
             if list1[i] in list1 and list1[i] in list2 and list1[i] not in tempdic:
                 tempdic[list1[i]]=i
         for i in range(len(list2)):
-            if list2[i] in list1 and list2[i] in list2 :
+            if list2[i] in tempdic:
                 tempdic[list2[i]]+=i
         
         for i in tempdic:
