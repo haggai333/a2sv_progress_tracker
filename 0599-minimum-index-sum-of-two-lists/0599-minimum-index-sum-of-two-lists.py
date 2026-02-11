@@ -15,7 +15,7 @@ class Solution:
         for i in tempdic:
             if tempdic[i]==mini:
                 answer.append(i)
-        return list(set(answer))
+        return answer
 
 
 
