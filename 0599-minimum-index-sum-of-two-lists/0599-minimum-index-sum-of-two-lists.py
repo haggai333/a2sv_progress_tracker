@@ -4,8 +4,9 @@ class Solution:
         tempdic={}
         mini=99999
         for i in range(len(list1)):
-            if list1[i] in list1 and list1[i] in list2 and list1[i] not in tempdic:
-                tempdic[list1[i]]=i
+            if list1[i] not in tempdic:
+                if list1[i] in list1 and list1[i] in list2:
+                    tempdic[list1[i]]=i
         for i in range(len(list2)):
             if list2[i] in tempdic:
                 tempdic[list2[i]]+=i
