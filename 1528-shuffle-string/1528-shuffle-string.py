@@ -8,6 +8,3 @@ class Solution:
         for i in range(size):
             answer+=str(mapans[i])
         return answer
-
-
-        
