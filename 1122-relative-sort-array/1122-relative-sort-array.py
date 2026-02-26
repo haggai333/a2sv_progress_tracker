@@ -1,8 +1,5 @@
 class Solution:
     def relativeSortArray(self, arr1: List[int], arr2: List[int]) -> List[int]:
-        for i in arr2:
-            if i not in arr1:
-                arr1.append(i)
         counter={}
         for i in arr1:
             if i in counter:
