@@ -20,11 +20,11 @@ def insertionSort1(n, arr):
 
     while i >= 0 and arr[i] > value:
         arr[i + 1] = arr[i]
-        print(*arr)
+        print(arr)
         i -= 1
 
     arr[i + 1] = value
-    print(*arr)
+    print(arr)
     # Write your code here
 
 if __name__ == '__main__':
