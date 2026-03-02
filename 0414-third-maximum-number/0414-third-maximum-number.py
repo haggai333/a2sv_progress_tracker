@@ -5,7 +5,7 @@ class Solution:
         count=0
         nums.sort(reverse=True)
         maxi=nums[0]
-       for i in nums:
+        for i in nums:
             if i <maxi:
                 maxi=i
                 count+=1
