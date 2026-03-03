@@ -6,9 +6,7 @@ class Solution:
         if size<2:
             return 
         while r<size:
-            if nums[l]!=0:
-                l+=1
-                r+=1
+            
             if nums[r]!=0:
                 nums[r],nums[l]=nums[l],nums[r]
                 r+=1
