@@ -2,9 +2,10 @@ class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         l=0
         r=0
-        if len(nums)<2:
+        size=len(nums)
+        if size<2:
             return 
-        while r<len(nums):
+        while r<size:
             if nums[l]!=0:
                 l+=1
                 r+=1
