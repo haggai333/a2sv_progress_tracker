@@ -11,8 +11,7 @@ class Solution:
                 k=(j-i)*min(height[i],height[j])
                 area=max(area,k)
                 j-=1 
-                
-            if height[i]<=height[j]:
+            else:
                 k=(j-i)*min(height[i],height[j])
                 area=max(area,k)
                 i+=1
