@@ -1,7 +1,7 @@
 class Solution: 
     def selectionSort(self, arr):
         n = len(arr)
-        
+        p=[]
         for i in range(n):
             min_index = i
             
@@ -11,6 +11,7 @@ class Solution:
             
             
             arr[i], arr[min_index] = arr[min_index], arr[i]
+            
         
         
             

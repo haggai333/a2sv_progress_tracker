@@ -8,7 +8,8 @@ for _ in range(n):
     b = True
     j = 1
     
-    while j < size:   
+    while j < size: 
+         
         if arrays[j] - arrays[j - 1] > 1:
             b = False
             break
