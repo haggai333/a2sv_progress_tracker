@@ -3,11 +3,10 @@ class Solution:
         skill.sort()
         l=0
         r=len(skill)-1
-        groups=[]
-        k=skill[l]+skill[r]
+        prevsum=skill[l]+skill[r]
         answer=0
         while(r>l):
-            if k!=skill[l]+skill[r]:
+            if prevsum!=skill[l]+skill[r]:
                 return -1
             answer+=skill[l]*skill[r]
             r-=1
