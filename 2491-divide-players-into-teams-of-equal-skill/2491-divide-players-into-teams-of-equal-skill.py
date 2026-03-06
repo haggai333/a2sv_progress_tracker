@@ -5,21 +5,14 @@ class Solution:
         r=len(skill)-1
         groups=[]
         k=skill[l]+skill[r]
+        answer=0
         while(r>l):
             if k!=skill[l]+skill[r]:
                 return -1
-            temp=[]
-            temp.append(skill[l])
-            temp.append(skill[r])
-            groups.append(temp)
+            answer+=skill[l]*skill[r]
             r-=1
             l+=1
-        answer=0
         
-        for i in groups:
-            product=i[0]*i[1]
-            answer+=product
-            
         return answer
         
 
