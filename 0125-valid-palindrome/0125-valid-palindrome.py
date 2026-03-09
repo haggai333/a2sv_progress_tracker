@@ -2,7 +2,7 @@ class Solution(object):
     def isPalindrome(self, s):
         k=""
         for i in s:
-            if i>='a'and i<='z'or i>="A"and i<="Z" or i>="0"and i<="9":
+            if i.isalpha() or i.isdigit():
                 k+=i.lower()
         l=0
         r=len(k)-1
