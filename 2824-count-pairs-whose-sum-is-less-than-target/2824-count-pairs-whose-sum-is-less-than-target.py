@@ -4,7 +4,6 @@ class Solution(object):
         nums.sort()
         l=0
         r=len(nums)-1
-        print(nums)
         while r>l:
             if nums[l]+nums[r]<target:
                 
