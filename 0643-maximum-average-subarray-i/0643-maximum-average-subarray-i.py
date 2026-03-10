@@ -14,7 +14,6 @@ class Solution(object):
                     done=False
                     sum=count
                 r+=1
-                continue
             else:
                 count+=(nums[r]-nums[l])
                 sum=max(sum,count)
