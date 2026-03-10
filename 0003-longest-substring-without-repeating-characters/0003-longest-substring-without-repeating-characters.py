@@ -7,15 +7,16 @@ class Solution:
         while r<len(s):
             print(counts)
             if s[r] in counts:
-                counts.discard(s[l])
-                counts.add(s[r])
-                r+=1
-                l+=1
-                
-            else:
-                counts.add(s[r])
-                r+=1
-                answer=max(answer,len(counts))
+                while l<=r:
+                    if s[l]==s[r]:
+                        counts.discard(s[l])
+                        l+=1
+                        break
+                    counts.discard(s[l])
+                    l+=1
+            counts.add(s[r])
+            r+=1
+            answer=max(answer,len(counts))
         return answer
 
         
