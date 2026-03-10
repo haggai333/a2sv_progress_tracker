@@ -14,7 +14,6 @@ class Solution(object):
         while r<size:
             count+=(nums[r]-nums[l])
             sum=max(sum,count)
-            print(sum)
             r+=1
             l+=1
         print(sum)
