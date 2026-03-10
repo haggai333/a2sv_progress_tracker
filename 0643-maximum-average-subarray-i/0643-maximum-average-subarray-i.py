@@ -16,5 +16,4 @@ class Solution(object):
             sum=max(sum,count)
             r+=1
             l+=1
-        print(sum)
         return sum/float(k)
