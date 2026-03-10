@@ -5,7 +5,6 @@ class Solution:
         r=0
         l=0
         while r<len(s):
-            print(counts)
             if s[r] in counts:
                 while l<=r:
                     if s[l]==s[r]:
