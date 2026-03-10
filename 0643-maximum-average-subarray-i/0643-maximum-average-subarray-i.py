@@ -5,10 +5,9 @@ class Solution(object):
         count=0
         l=0
         r=0
-        size=len(nums)
         sum=count
         done=True
-        while r<size:
+        while r<len(nums):
             if r<k and done:
                 count+=nums[r]
                 if r-l==k-1:
