@@ -15,9 +15,9 @@ class Solution(object):
                     sum=count
                 r+=1
                 continue
-                
-            count+=(nums[r]-nums[l])
-            sum=max(sum,count)
-            r+=1
-            l+=1
+            else:
+                count+=(nums[r]-nums[l])
+                sum=max(sum,count)
+                r+=1
+                l+=1
         return sum/float(k)
