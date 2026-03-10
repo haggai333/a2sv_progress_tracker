@@ -1,17 +1,22 @@
 class Solution(object):
     def findMaxAverage(self, nums, k):
+        if k==1:
+            return max(nums)
         count=0
         l=0
         r=0
         size=len(nums)
-        if k==1:
-            return max(nums)
-        r=k-1
-        for i in range(0,k):
-            count+=nums[i]
-        r+=1
         sum=count
+        done=True
         while r<size:
+            if r<k and done:
+                count+=nums[r]
+                sum+=nums[r]
+                if r-l==k-1:
+                    done=False
+                r+=1
+                continue
+                
             count+=(nums[r]-nums[l])
             sum=max(sum,count)
             r+=1
