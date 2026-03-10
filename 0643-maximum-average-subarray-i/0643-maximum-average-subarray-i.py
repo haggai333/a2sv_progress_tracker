@@ -11,9 +11,9 @@ class Solution(object):
         while r<size:
             if r<k and done:
                 count+=nums[r]
-                sum+=nums[r]
                 if r-l==k-1:
                     done=False
+                    sum=count
                 r+=1
                 continue
                 
