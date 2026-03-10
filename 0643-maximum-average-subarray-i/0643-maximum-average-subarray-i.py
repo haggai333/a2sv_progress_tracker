@@ -17,4 +17,4 @@ class Solution(object):
             r+=1
             l+=1
         print(sum)
-        return float(float(sum)/float(k))
+        return sum/float(k)
