@@ -5,14 +5,18 @@ class Solution(object):
         count=0
         l=0
         r=0
-        sum=0
+        sum=count
+        done=True
         while r<len(nums):
+            if r<k and done:
                 count+=nums[r]
+                if r-l==k-1:
+                    done=False
+                    sum=count
                 r+=1
-                if r-l==k:
-                    sum=max(sum,count)
-                    count-=nums[l]
-                    l+=1
-                print(l,r)
-                print(count/k)
+            else:
+                count+=(nums[r]-nums[l])
+                sum=max(sum,count)
+                r+=1
+                l+=1
         return sum/float(k)
