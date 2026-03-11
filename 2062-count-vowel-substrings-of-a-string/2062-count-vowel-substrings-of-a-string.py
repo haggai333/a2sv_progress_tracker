@@ -8,7 +8,7 @@ class Solution(object):
                 if word[j] not in a:
                     break
                 b.add(word[j])
-                if b==a:
+                if len(b)==5:
                     count+=1
         return count
 
