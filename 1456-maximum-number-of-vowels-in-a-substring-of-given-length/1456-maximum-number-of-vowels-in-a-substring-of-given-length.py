@@ -1,6 +1,6 @@
 class Solution(object):
     def maxVowels(self, s, k):
-        a="aeiou"
+        a=set("aeiou")
         l=0
         count=0
         answer=0
