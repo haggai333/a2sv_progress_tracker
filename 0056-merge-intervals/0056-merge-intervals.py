@@ -1,21 +1,19 @@
 class Solution(object):
     def merge(self, intervals):
         intervals.sort(key=lambda x: x[0])
-        temp=[]
-        for i in intervals:
-            temp.append(i[0])
-            temp.append(i[1])
-        print temp
         answer=[]
         l=0
-        for i in range(1,len(temp)-1):
-            if i%2==0 and i>0:
-                if temp[i]>temp[i-1]  and temp[i]>=temp[i+1]:
-                    continue
-                else:
-                    answer.append([temp[l],temp[i+1]])
-                    l=i+2
-            
+        if len(intervals)<2:
+            return intervals
+        for i in range(1,len(intervals)):
+            if intervals[i][0] > intervals[i-1][1]:
+                answer.append([intervals[l][0], intervals[i-1][1]])
+                l=i
+            else:
+                intervals[i][1] = max(intervals[i][1], intervals[i-1][1])
+
+        answer.append([intervals[l][0], intervals[-1][1]])
+       
         return answer
 
 
