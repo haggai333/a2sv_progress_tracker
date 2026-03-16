@@ -4,12 +4,7 @@ class Solution(object):
         window={}
         l=0
         answer=0
-        equal=True
-        for i in range(1,len(arr)):
-            if arr[i]!=arr[i-1]:
-                equal=False
-                break
-        if equal:
+        if len(set(arr))==1:
             return 1
         for r in range(1,len(arr)):
             window[arr[r-1]]=1+window.get(arr[r-1],0)
