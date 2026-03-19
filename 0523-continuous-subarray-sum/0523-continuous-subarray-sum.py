@@ -1,0 +1,40 @@
+class Solution(object):
+    def checkSubarraySum(self, nums, k):
+        if len(nums)<2:
+            return False
+        if len(nums)<3:
+            return sum(nums)%k==0
+        sumi=[]
+        su=0
+        for i in nums:
+            su+=i
+            sumi.append(su)
+        print(sumi)
+        oki=[]
+        for i in range(len(sumi)):
+            oki.append(sumi[i]%k)
+        print(oki)
+        for i in range(1,len(oki)):
+            if oki[i]%k==0:
+                return True
+        counter={}
+        temp=0
+        for i in range(len(nums)):
+            if oki[i] in counter:
+                if i-counter[oki[i]]>1:
+                    return  True
+            else:
+                counter[oki[i]]=i
+
+        
+        
+            
+        return False
+            
+
+
+        
+        
+
+
+        
