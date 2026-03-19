@@ -6,10 +6,10 @@ class Solution(object):
         for i in nums:
             su+=i
             sumi.append(su)
-        
         oki=[]
         for i in range(len(sumi)):
             oki.append(sumi[i]%k)
+
         for i in range(1,len(oki)):
             if oki[i]%k==0:
                 return True
@@ -21,9 +21,6 @@ class Solution(object):
             else:
                 counter[oki[i]]=i
 
-        
-        
-            
         return False
             
 
