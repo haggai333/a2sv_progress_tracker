@@ -1,9 +1,6 @@
 class Solution(object):
     def checkSubarraySum(self, nums, k):
-        if len(nums)<2:
-            return False
-        if len(nums)<3:
-            return sum(nums)%k==0
+        
         sumi=[]
         su=0
         for i in nums:
