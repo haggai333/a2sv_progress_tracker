@@ -9,16 +9,14 @@ class Solution(object):
         for i in nums:
             su+=i
             sumi.append(su)
-        print(sumi)
+        
         oki=[]
         for i in range(len(sumi)):
             oki.append(sumi[i]%k)
-        print(oki)
         for i in range(1,len(oki)):
             if oki[i]%k==0:
                 return True
         counter={}
-        temp=0
         for i in range(len(nums)):
             if oki[i] in counter:
                 if i-counter[oki[i]]>1:
