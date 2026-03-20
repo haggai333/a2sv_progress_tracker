@@ -1,8 +1,6 @@
 class Solution(object):
     def judgeSquareSum(self, c):
-        r=sqrt(c)
-        r=int(r//1)
-        
+        r=int(sqrt(c))
         temp=[]
         for i in range(r+1):
             temp.append(i*i)
