@@ -2,14 +2,16 @@ n,t=map(int,input().split())
 a=list(map(int,input().split()))
 a.sort()
 count=0
+sum=0
+temp=0
 l=0
-print(a)
-while l<len(a) and count<t:
-    if a[l]<t:
-        count+=1
-        t-=a[l]
+while l<len(a):
+    temp+=a[l]
+    if temp<=t and l<n:
+        sum=l+1
     l+=1
-print(count)
+print(sum)
+
 
     
 

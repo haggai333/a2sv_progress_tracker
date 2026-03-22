@@ -11,16 +11,14 @@ for _ in range(t):
         cant=False
         for i in range(n):
             o=list(map(int,input().split()))
-            o.sort(key=lambda x:x%2==0,reverse=True)
+            o.sort(key=lambda x:(x%2==1,x%2==0),reverse=True)
             matrix.append(o)
             for j in o:
                 p.append(j)
         k=matrix.copy()
-        k.sort(key=lambda x:set(x))
-        if k==matrix:
-            print(-1)
-        else:
-            for i in matrix:
+        k.sort()
+        
+        for i in matrix:
                 print(*i)
 
         
