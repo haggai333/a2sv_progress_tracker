@@ -18,7 +18,7 @@ class Solution(object):
                     answer.append([nums[l],nums[li],nums[ri]])
                     li+=1
                     ri-=1
-                while li < ri and nums[li]==nums[li-1]:
+                    while li < ri and nums[li]==nums[li-1]:
                         li+=1
                     while li<ri and nums[ri]==nums[ri+1]:
                         ri-=1
