@@ -1,7 +1,7 @@
 class Solution(object):
     def threeSumClosest(self, nums, target):
-        answer=0
-        close=9999999
+        answer=nums[0]+nums[1]+nums[2]
+        close=abs(target-answer)
         nums.sort()
         
         for r in range(len(nums)):
