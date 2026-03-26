@@ -5,7 +5,7 @@ class Solution(object):
             answer[l-1]+=s
             if r<n:
                 answer[r]-=s
-        print(answer)
+        
         for i in range(1,n):
             answer[i]+=answer[i-1]
         
