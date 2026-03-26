@@ -1,7 +1,7 @@
 class Solution(object):
     def removeStars(self, s):
         count=0
-        temp=""
+        temp=[]
         i=len(s)-1
         while i>-1:
             if s[i]=="*":
@@ -12,13 +12,15 @@ class Solution(object):
                 count-=1
                 i-=1
                 continue
-            temp+=s[i]
+            temp.append(s[i])
             i-=1
+        l=0
         r=len(temp)-1
-        answer=""
-        while r>-1:
-            answer+=temp[r]
+        while r>l:
+            temp[r],temp[l]=temp[l],temp[r]
             r-=1
-        return answer
+            l+=1
+        
+        return "".join(temp)
 
         
