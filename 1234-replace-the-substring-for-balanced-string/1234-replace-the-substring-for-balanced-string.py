@@ -5,13 +5,13 @@ class Solution(object):
         answer=float('inf')
         for i in s:
             count[i]=1+count.get(i,0)
-        if all(count.get(c, 0) <= current for c in "QWER"):
+        if all(count.get(c,0)<=current for c in "QWER"):
             return 0
         l=0
         r=0
         while r<len(s):
             count[s[r]]-=1
-            while l<=r and all(count.get(c, 0) <= current for c in "QWER"):
+            while l<=r and all(count.get(c, 0)<=current for c in "QWER"):
                 answer=min(answer,r-l+1)
                 count[s[l]]+=1
                 l+=1
