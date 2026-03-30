@@ -13,7 +13,7 @@ class Solution(object):
                 count[nums[l]] -= 1
                 if count[nums[l]] == 0:
                     k+=1
-                l += 1
+                l+=1
             answer+=r-l+1
         k=temp-1
         count.clear()
@@ -26,7 +26,7 @@ class Solution(object):
                 count[nums[l]] -= 1
                 if count[nums[l]] == 0:
                     k+=1
-                l += 1
+                l+=1
             answer1+=r-l+1
             
         return answer-answer1
