@@ -1,25 +1,12 @@
-t=int(input())
-for i in range(t):
-    k=int(input())
-    a=list(map(int,input().split()))
-    
-    mx=0
-    a.sort()
-    count=0
-    
-    for i in range(0,len(a)):
-        p=len(a)-i-1
-        if a[p]>=mx:
-            mx=a[p]
-            a[p]=0
-            
-        else:
-            break
-        count+=1
-    if count%2==1 and count!=0:
+t = int(input())
+
+for _ in range(t):
+    n=int(input())
+    a=list(map(int, input().split()))
+    freq=[0]*(n + 1)
+    for x in a:
+        freq[x]+= 1
+    if any(i%2==1 for i in freq):
         print("YES")
     else:
         print("NO")
-    
-    
-        
