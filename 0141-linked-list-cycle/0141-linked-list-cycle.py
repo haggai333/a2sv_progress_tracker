@@ -6,12 +6,12 @@
 
 class Solution(object):
     def hasCycle(self, head):
-        a={}
+        a=set()
         count=0
         while head:
             if head in a:
                 return True
-            a[head]=count
+            a.add(head)
             count+=1
             head=head.next
         return False
