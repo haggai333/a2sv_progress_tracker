@@ -15,7 +15,6 @@ class Solution(object):
                 count+=1
             temp=temp.next
             current+=1
-        print(answer.val)
         a=answer.next
         
         if a and current>n:
