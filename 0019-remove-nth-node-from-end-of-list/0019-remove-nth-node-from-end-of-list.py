@@ -15,15 +15,15 @@ class Solution(object):
                 count+=1
             temp=temp.next
             current+=1
-        a=answer.next
+        nth=answer.next
         
-        if a and current>n:
-            answer.next=a.next
-        elif a and n==2:
+        if nth and current>n:
+            answer.next=nth.next
+        elif nth and n==2:
             head=head.next
 
         else:
-            head=a
+            head=nth
         return head
         
         
