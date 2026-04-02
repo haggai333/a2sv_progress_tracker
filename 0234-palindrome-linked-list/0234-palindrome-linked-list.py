@@ -34,6 +34,7 @@ class Solution(object):
             else:
                 b=a
                 a=a.next
+        prev.next=None
         
         for i in range(count//2):
             if head.val!=b.val:
