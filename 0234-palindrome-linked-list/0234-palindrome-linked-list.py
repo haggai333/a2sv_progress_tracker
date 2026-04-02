@@ -22,15 +22,10 @@ class Solution(object):
         a=slow
         b=None
         while a:
-            if b:
                 t=a.next
                 a.next=b
                 b=a
                 a=t
-
-            else:
-                b=a
-                a=a.next
         
         
         for i in range(count//2):
