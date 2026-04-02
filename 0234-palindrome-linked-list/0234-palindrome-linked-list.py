@@ -19,9 +19,6 @@ class Solution(object):
             prev=slow
             slow=slow.next
         
-        if count%2==1:
-            prev=slow
-            slow=slow.next
         a=slow
         b=None
         while a:
