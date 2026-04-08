@@ -9,8 +9,9 @@ class Solution(object):
                 line.pop()
             line.append(index)
         for i in range(len(temperatures)):
-            if i in next:
-                answer.append(next[i]-i)
+            a=next.get(i,0)
+            if a!=0:
+                answer.append(a-i)
             else:
                 answer.append(0)
         return answer
