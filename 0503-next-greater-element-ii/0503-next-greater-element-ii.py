@@ -4,7 +4,7 @@ class Solution(object):
         l=nums+nums
         size=len(nums)
         next={}
-        for i,val in enumerate(nums+nums):
+        for i,val in enumerate(l):
             while len(line)>0 and nums[line[-1]%size]<val:
                 next[line[-1]]=i%size
                 line.pop()
