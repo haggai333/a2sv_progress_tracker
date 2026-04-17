@@ -7,10 +7,10 @@ class Solution:
         joined=[]
         for i in range(size):
             joined.append([position[i],speed[i]])
-        joined.sort()
-        for i in range(size):
+        joined.sort(reverse=True)
+        for i in range(size-1,-1,-1):
             timetomeet[i]=(target-joined[i][0])/joined[i][1]
-        timetomeet.reverse()
+        
         last_time=0
         for time in timetomeet:
             if time>last_time:
