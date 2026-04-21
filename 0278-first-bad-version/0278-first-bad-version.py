@@ -8,8 +8,7 @@ class Solution:
                 r=mid
             else:
                 l=mid+1
-        while r>1 and isBadVersion(r-1):
-           r-=1
-        return r
+        
+        return l
 
         
