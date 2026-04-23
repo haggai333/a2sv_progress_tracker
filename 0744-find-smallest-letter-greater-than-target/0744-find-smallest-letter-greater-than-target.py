@@ -8,7 +8,7 @@ class Solution:
             return letters[0]
         while r>=l:
             mid=(r+l)//2
-            print(l,mid,r)
+            
             if ord(letters[mid])>ord(target):
                 r=mid-1
             else:
