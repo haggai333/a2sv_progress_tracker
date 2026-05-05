@@ -9,7 +9,6 @@ class Solution:
                 answer=sum
             if sum<0:
                 l=r+1
-                r=r+1
                 sum=0
         return answer
 
