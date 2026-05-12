@@ -4,7 +4,6 @@ class Solution(object):
         start=intervals[0][0]
         end=intervals[0][1]
         answer=[]
-        changed=False
         
         for i in intervals:
             if i[0]<=end and end>i[1]:
@@ -15,7 +14,6 @@ class Solution(object):
                 answer.append([start,end])
                 start=i[0]
                 end=i[1]
-                changed=True
         if not answer or start!=answer[-1][0] or end!=answer[-1][1]:
             answer.append([start,end])
         return answer
