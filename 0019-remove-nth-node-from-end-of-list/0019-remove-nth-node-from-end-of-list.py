@@ -7,24 +7,15 @@ class Solution(object):
     def removeNthFromEnd(self, head, n):
         temp=ListNode(-1)
         temp.next=head
-        dummy=temp
-        prev=temp
-        temp=temp.next
-
-        count=0
-        size=0
-        fast=head
-        while fast:
-            size+=1
+        fast=temp
+        slow=temp
+        for i in range(n+1):
             fast=fast.next
-        while temp:
-            count+=1
-            if size-count==n-1:
-                prev.next=temp.next
-                break
-            prev=temp
-            temp=temp.next
+        while fast:
+            slow=slow.next
+            fast=fast.next
+        slow.next=slow.next.next
             
-        return dummy.next
+        return temp.next
             
         
