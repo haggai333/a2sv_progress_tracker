@@ -6,11 +6,26 @@
 
 class Solution(object):
     def detectCycle(self, head):
-        seen=set()
-        while head:
-            if head in seen:
-                return head
-            seen.add(head)
-            head=head.next
-        return None
+        if not head:
+            return
+        if not head.next:
+            return
+        fast=head
+        slow=head
+        while fast and fast.next:
+            fast=fast.next.next
+            slow=slow.next
+            if slow==fast:
+                break
+        if not fast:
+            return
+        if not fast.next:
+            return
+        fast=head
+        while fast:
+            if fast==slow:
+                return fast
+            fast=fast.next
+            slow=slow.next
+        
         
