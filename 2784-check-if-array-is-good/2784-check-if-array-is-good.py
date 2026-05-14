@@ -10,7 +10,4 @@ class Solution(object):
             if i not in seen or (seen[i]>1 and i!=special):
                 return False
         return True
-
-        
-        return count==2
         
