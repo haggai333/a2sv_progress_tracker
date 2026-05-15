@@ -5,38 +5,41 @@
 #         self.next = next
 class Solution(object):
     def isPalindrome(self, head):
+        if not head.next:
+            return True
+        def reverselist(heads):
+            dummy=heads
+            prev=None
+            while dummy:
+                nexts=dummy.next
+                dummy.next=prev
+                prev=dummy
+                dummy=nexts
+            return prev
+        fast=head
         slow=head
-        fast=head
         prev=None
-        count=0
-        while fast:
-            fast=fast.next
-            count+=1
-        fast=head
-        
         while fast and fast.next:
-            fast=fast.next.next
             prev=slow
             slow=slow.next
-        
-        a=slow
-        b=None
-        while a:
-                t=a.next
-                a.next=b
-                b=a
-                a=t
-        
-        
-        for i in range(count//2):
-            if head.val!=b.val:
+            fast=fast.next.next
+        prev.next=None
+        slow=reverselist(slow)
+        fast=head
+        while fast and slow:
+            if fast.val!=slow.val:
                 return False
-            head=head.next
-            b=b.next
-        return True
-
-
+            slow=slow.next
+            fast=fast.next
+        if fast:
+            fast=fast.next
+        if slow:
+            slow=slow.next
         
+        if fast or slow:
+            return False
+        else:
+            return True
         
 
         
