@@ -1,20 +1,13 @@
 class Solution(object):
     def isValid(self, s):
-        stack=[]
-        pairs={"}":"{","]":"[",")":"(","{" :"}","[" :"]" ,"(" :")"}
+        close=set("})]")
+        check={"}":"{",")":"(","]":"["}
+        stack=list()
         for i in s:
-            if i=="(" or i=="{" or i=="[":
+            if i not in close:
                 stack.append(i)
             else:
-                if len(stack)>=1:
-                    c=stack[-1]
-                else:
+                if not stack or  (stack[-1]!=check[i]):
                     return False
-                if pairs[c]==i:
-                    stack.pop()
-                else:
-                    return False
+                stack.pop()
         return len(stack)==0
-        
-
-        
