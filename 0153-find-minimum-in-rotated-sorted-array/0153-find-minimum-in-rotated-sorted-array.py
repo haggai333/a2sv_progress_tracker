@@ -6,7 +6,7 @@ class Solution(object):
             mid=(r+l)//2
             if nums[r]<nums[mid]:
                 l=mid+1
-            if nums[r]>nums[mid]:
+            else:
                 r=mid
             
             
