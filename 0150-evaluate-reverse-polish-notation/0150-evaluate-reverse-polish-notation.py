@@ -1,22 +1,21 @@
 class Solution(object):
     def evalRPN(self, tokens):
-        a=[]
+        stack=list()
+        check=set("/*-+")
         for i in tokens:
-            if i in {"+", "-", "*", "/"}:
-                b=a.pop()
-                c=a.pop()
-                if i=="+":
-                    a.append(c+b)
-                elif i=="-":
-                    a.append(c-b)
-                elif i=="*":
-                    a.append(c*b)
-                else:
-                    sign=1
-                    if (c*b)<0:
-                        sign=-1
-                    a.append(sign*(abs(c)//abs(b)))
+            if i not in check:
+                stack.append(int((i)))
             else:
-                a.append(int(i))
-           
-        return a.pop()
+                b=stack.pop()
+                a=stack.pop()
+                if i=="+":
+                    stack.append(a+b)
+                elif i=="-":
+                    stack.append(a-b)
+                elif i=="*":
+                    stack.append(a*b)
+                else:
+                    stack.append(int(float(a)/b))
+                
+        return stack.pop()
+        
