@@ -1,21 +1,21 @@
-t=int(input())
+def solve():
+    n, c, d = map(int, input().split())
+
+    b = list(map(int, input().split()))
+
+    a11 = min(b)
+
+    expected = []
+    for i in range(n):
+        for j in range(n):
+            expected.append(a11 + i * c + j * d)
+
+    if sorted(b) == sorted(expected):
+        return "YES"
+    else:
+        return "NO"
+
+
+t = int(input())
 for _ in range(t):
-    ist=True
-    n,c,d=map(int,input().split())
-    a=list(map(int,input().split()))
-    print(a)
-    og=a[0]
-    i=1
-    while i<len(a) and ist:
-        if i%n==0:
-            if a[i]-og==c:
-               print(i,"ok")
-               og=a[i]
-               i+=1
-               continue
-            else:
-               print(i,"not ok")
-               ist=False
-        print(i)
-        i+=1
-    print(ist)
+    print(solve())
