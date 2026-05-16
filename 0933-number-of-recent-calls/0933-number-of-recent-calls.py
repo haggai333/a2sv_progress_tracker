@@ -1,14 +1,18 @@
 class RecentCounter(object):
 
     def __init__(self):
-        self.queue=[]
-    def ping(self, t):
+        self.answer=deque()
         
-        self.queue.append(t)
-        diff=t-3000
-        while len(self.queue)>0 and self.queue[0]<diff:
-            self.queue.pop(0)
-        return len(self.queue)
+
+    def ping(self, t):
+        self.answer.append(t)
+        while self.answer and not(t-3000<=self.answer[0]<=t):
+            self.answer.popleft()
+        return len(self.answer)
+        
+
+
+        
         
 
 
