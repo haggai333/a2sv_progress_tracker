@@ -5,25 +5,21 @@
 #         self.next = next
 class Solution(object):
     def mergeTwoLists(self, list1, list2):
-        def answer(answers,list1,list2):
+        def answer(list1,list2):
             if not list1 and not list2:
-                return 
-            if not list1 and list2:
-                answers.next=list2
-                return
-            if not list2 and list1:
-                answers.next=list1
-                return
+                return None
+            if not list1:
+                return list2
+            if not list2:
+                return list1
             if list1.val>=list2.val:
-                answers.next=list2
-                list2=list2.next
+                list2.next=answer(list1,list2.next)
+                return list2
             else:
-                answers.next=list1
-                list1=list1.next
-            answer(answers.next,list1,list2)
-        dummy=ListNode(1)
-        answer(dummy,list1,list2)
-        return dummy.next
+                list1.next=answer(list1.next,list2)
+                return list1
+            
+        return answer(list1,list2)
 
         
 
