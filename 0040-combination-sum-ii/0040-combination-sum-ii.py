@@ -10,9 +10,10 @@ class Solution(object):
             if currentsum>target:
                 return
             while j<len(candidates):
-                path.append(candidates[j])
-                backtrack(currentsum+candidates[j],j+1)
-                path.pop()
+                if currentsum+candidates[j]<=target:
+                    path.append(candidates[j])
+                    backtrack(currentsum+candidates[j],j+1)
+                    path.pop()
                 while j<len(candidates)-1 and candidates[j]==candidates[j+1]:
                     j+=1
                 j+=1
