@@ -3,21 +3,16 @@ class Solution(object):
         answer=[]
         path=[]
         nums.sort()
-        def backtracking(counts):
-            if counts>len(nums):
+        def backtrack(count):
+            if count>len(nums):
                 return
             answer.append(path[:])
-            
-            
-            while counts<len(nums):
-                path.append(nums[counts])
-                backtracking(counts+1)
+            while count<len(nums):
+                path.append(nums[count])
+                backtrack(count+1)
                 path.pop()
-                while counts<len(nums)-1 and nums[counts]==nums[counts+1]:
-                    counts+=1
-                counts+=1
-                
-        backtracking(0)
+                while count<len(nums)-1 and nums[count]==nums[count+1]:
+                    count+=1
+                count+=1
+        backtrack(0)
         return answer
-                
-        
