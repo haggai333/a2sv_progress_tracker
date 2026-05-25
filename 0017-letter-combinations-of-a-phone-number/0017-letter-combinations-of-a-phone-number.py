@@ -13,8 +13,6 @@ class Solution(object):
                 backtrack(count+1)
                 path.pop()
                 i+=1
-        if len(digits)==0:
-            return []
         backtrack(0)
         return answer
             
