@@ -5,7 +5,7 @@ class Solution(object):
         answer=[]
         def backtrack(count):
             if count==len(digits):
-                answer.append("".join(path[:]))
+                answer.append("".join(path))
                 return
             i=0
             while i<len(checker[int(digits[count])]):
@@ -13,6 +13,8 @@ class Solution(object):
                 backtrack(count+1)
                 path.pop()
                 i+=1
+        if len(digits)==0:
+            return []
         backtrack(0)
         return answer
             
