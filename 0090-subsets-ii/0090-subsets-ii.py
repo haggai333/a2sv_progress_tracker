@@ -2,7 +2,6 @@ class Solution(object):
     def subsetsWithDup(self, nums):
         answer=[]
         path=[]
-        used=set()
         nums.sort()
         def backtracking(counts):
             if counts>len(nums):
