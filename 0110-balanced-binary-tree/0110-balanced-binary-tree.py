@@ -8,13 +8,15 @@ class Solution(object):
     def isBalanced(self, root):
         self.answer=True
         def search(roots,j):
+            if not self.answer:
+                return 0
             if not roots:
-                return j
+                return 0
             l=search(roots.left,j+1)
             r=search(roots.right,j+1)
             if abs(r-l)>1:
                 self.answer=False
-            return max(r,l)
+            return 1+max(r,l)
             
         search(root,0)
 
