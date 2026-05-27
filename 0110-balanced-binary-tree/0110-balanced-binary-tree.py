@@ -8,8 +8,6 @@ class Solution(object):
     def isBalanced(self, root):
         self.answer=True
         def search(roots,j):
-            if not self.answer:
-                return 0
             if not roots:
                 return 0
             l=search(roots.left,j+1)
