@@ -7,14 +7,14 @@
 class Solution(object):
     def diameterOfBinaryTree(self, root):
         self.answer=0
-        def find(roots,i):
+        def find(roots):
             if not roots:
                 return 0
-            l=find(roots.left,i+1)
-            r=find(roots.right,i+1)
+            l=find(roots.left)
+            r=find(roots.right)
             self.answer=max(self.answer,l+r)
             return 1+max(l,r)
-        find(root,0)
+        find(root)
         return self.answer
 
         
