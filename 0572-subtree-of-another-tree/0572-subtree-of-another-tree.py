@@ -6,29 +6,34 @@
 #         self.right = right
 class Solution(object):
     def isSubtree(self, root, subRoot):
-        self.answer=False
-        def check(roots,roots2):
-            if not roots and not roots2:
-                return 1
-            if not roots and roots2:
-                return 0
-            if roots and not roots2:
-                return 0
-            if roots.val==roots2.val:
-                return check(roots.left,roots2.left)*check(roots.right,roots2.right)
-            else:
-                return 0
+        self.answer=[]
         def traverse(roots):
-            if not roots or self.answer:
+            if not roots:
+                self.answer.append(None)
                 return
-            if roots.val==subRoot.val:
-                p=check(roots,subRoot)==1
-                if p==1:
-                    self.answer=True
-            if self.answer:
-                return
+            self.answer.append(roots.val)
             traverse(roots.left)
             traverse(roots.right)
         traverse(root)
-        return self.answer
+        first=self.answer
+        self.answer=[]
+        traverse(subRoot)
+        if len(first)<len(self.answer):
+            return False
+        answer=False
+        for i in range(len(first)):
+            if answer:
+                break
+            if first[i]==self.answer[0] and i+len(self.answer)-1<len(first):
+                check=True
+                for j in range(len(self.answer)):
+                    if self.answer[j]!=first[i+j]:
+                        check=False
+                        break
+                if check:
+                    answer=True
+                    break
+        return answer           
+        
+        
         
