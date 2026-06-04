@@ -12,8 +12,9 @@ class Solution(object):
                 return
             if roots.val>=maxi:
                 self.answer+=1
-            search(roots.right,max(maxi,roots.val))
-            search(roots.left,max(maxi,roots.val))
+                maxi=roots.val
+            search(roots.right,maxi)
+            search(roots.left,maxi)
         search(root,-1*float('inf'))
         return self.answer
 
