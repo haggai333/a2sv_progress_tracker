@@ -12,8 +12,6 @@ class Solution(object):
                     cumli=i
                 else:
                     cumli+=i
-                if count+1>days:
-                    break
             if count+1>days:
                 l=mid+1
             else:
