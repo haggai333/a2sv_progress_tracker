@@ -1,26 +1,24 @@
-class Solution:
-    def shipWithinDays(self, weights: List[int], days: int) -> int:
-        def shipable(size):
-            day = 1
-            counts = 0
-
-            for w in weights:
-                if counts+ w > size:
-                    day += 1
-                    counts = 0
-                counts += w
-
-            return day <= days
-
-        l = max(weights)
-        r = sum(weights)
-
-        while l < r:
-            mid = (l + r) // 2
-
-            if shipable(mid):
-                r = mid
+class Solution(object):
+    def shipWithinDays(self, weights, days):
+        l=max(weights)
+        r=sum(weights)
+        while l<r:
+            mid=(l+r)//2
+            count=0
+            cumli=0
+            for i in weights:
+                if cumli+i>mid:
+                    count+=1
+                    cumli=i
+                else:
+                    cumli+=i
+                if count+1>days:
+                    break
+            if count+1>days:
+                l=mid+1
             else:
-                l = mid + 1
-
+                r=mid
         return l
+
+
+        
