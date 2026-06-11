@@ -3,7 +3,7 @@ class Solution(object):
         if k*m>len(bloomDay):
             return -1
         r=max(bloomDay)
-        l=1
+        l=min(bloomDay)
         while l<r:
             mid=(l+r)//2
             counts=0
