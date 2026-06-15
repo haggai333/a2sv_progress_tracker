@@ -1,29 +1,23 @@
-
+import sys
+sys.setrecursionlimit(10**6)
 t=int(input())
 
 for _ in range(t):
     n,m=map(int,input().split())
     matrix=[list(map(int,input().split())) for i in range(n)]
-    
     answer=0
-    checked = [ [False] * m for _ in range(n)]
-    dir=[(0,1),(1,0),(0,-1),(-1,0)]
-    for i in range(n):
-        for j in range(m):
-            if not checked[i][j] and matrix[i][j]>0:
-                stacks = [(i,j)]
-                checked[i][j]=True
-                total=0
-                while stacks:
-                    x , y = stacks.pop()
-                    total+=matrix[x][y]
-                    for p,q in dir:
-                        nwi,nwj=x+p,y+q
-                        if 0<=nwi<n and 0<=nwj<m and matrix[nwi][nwj]>0 and not checked[nwi][nwj]:
-                            stacks.append((nwi,nwj))
-                            checked[nwi][nwj]=True
-                    
-                answer=max(total,answer)
+    def dfs(l,r):
+        if  l<0 or l>len(matrix)-1 or r<0 or r>len(matrix[0])-1 or matrix[l][r]==0:
+            return 0
+        p=matrix[l][r]
+        matrix[l][r]=0
+        return p+ dfs(l+1,r)+dfs(l,r+1)+dfs(l-1,r)+dfs(l,r-1)
+    for i in range(len(matrix)):
+        for j in range(len(matrix[0])):
+            if matrix[i][j]==0:
+                continue
+            count=dfs(i,j)
+            answer=max(answer,count)
     print(answer)
 
 
