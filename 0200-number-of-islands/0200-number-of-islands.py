@@ -3,15 +3,12 @@ class Solution(object):
         visited=set()
         answer=0
         def dfs(i,j):
-            if (i,j) in visited or grid[i][j]=="0":
+            if (i,j) in visited or i<0 or i>len(grid)-1 or j<0 or j>len(grid[0])-1 or grid[i][j]=="0":
                 return
             visited.add((i,j))
             dirs=[[1,0],[0,1],[-1,0],[0,-1]]
             for o,p in dirs:
-                x=i+o
-                y=j+p
-                if x>-1 and x<len(grid) and y>-1 and y<len(grid[0]):
-                    dfs(x,y)
+                dfs(i+o,j+p)
         for i in range(len(grid)):
             for j in range(len(grid[0])):
                 if grid[i][j]!="1" or (i,j) in visited:
