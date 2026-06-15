@@ -15,10 +15,9 @@ class Solution(object):
         if prev:
             prev.next=prev.next.next
             return head
-        else:
-            if head.next:
-                head.next=None
-                return head
-            return None
+        if head.next:
+            head.next=None
+            return head
+        return None
 
         
