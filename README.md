@@ -22,3 +22,15 @@ A personal repository for tracking my competitive programming journey during the
 
 - Python
 - C++
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3612-process-string-with-special-operations-i](https://github.com/haggai333/a2sv_progress_tracker/tree/main/3612-process-string-with-special-operations-i/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3612-process-string-with-special-operations-i](https://github.com/haggai333/a2sv_progress_tracker/tree/main/3612-process-string-with-special-operations-i/) | Medium |
+<!---LeetCode Topics End-->
