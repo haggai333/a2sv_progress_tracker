@@ -1,7 +1,6 @@
 import sys
 sys.setrecursionlimit(10**6)
 t=int(input())
-
 for _ in range(t):
     n,m=map(int,input().split())
     matrix=[list(map(int,input().split())) for i in range(n)]
