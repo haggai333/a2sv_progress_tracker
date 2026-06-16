@@ -33,4 +33,20 @@ A personal repository for tracking my competitive programming journey during the
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3612-process-string-with-special-operations-i](https://github.com/haggai333/a2sv_progress_tracker/tree/main/3612-process-string-with-special-operations-i/) | Medium |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
 <!---LeetCode Topics End-->
