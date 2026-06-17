@@ -41,11 +41,13 @@ A personal repository for tracking my competitive programming journey during the
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0547-number-of-provinces](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0547-number-of-provinces/) | Medium |
 | [0695-max-area-of-island](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0547-number-of-provinces](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0547-number-of-provinces/) | Medium |
 | [0695-max-area-of-island](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
 ## Matrix
@@ -56,5 +58,10 @@ A personal repository for tracking my competitive programming journey during the
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0547-number-of-provinces](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0547-number-of-provinces/) | Medium |
 | [0695-max-area-of-island](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0695-max-area-of-island/) | Medium |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0547-number-of-provinces](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0547-number-of-provinces/) | Medium |
 <!---LeetCode Topics End-->
