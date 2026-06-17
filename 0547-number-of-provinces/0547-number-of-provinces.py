@@ -3,10 +3,9 @@ class Solution(object):
         answer=0
         def dfs(city):
             for j in range(len(isConnected[city])):
-                if isConnected[city][j]==1 and j!=city and j not in self.visited:
+                if isConnected[city][j]==1 and j not in self.visited:
                     self.visited.add(j)
                     dfs(j)
-
         self.visited=set()
         for city in range(len(isConnected)):
             if city not in self.visited:
