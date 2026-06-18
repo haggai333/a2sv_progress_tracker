@@ -64,4 +64,8 @@ A personal repository for tracking my competitive programming journey during the
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0547-number-of-provinces](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0547-number-of-provinces/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1344-angle-between-hands-of-a-clock](https://github.com/haggai333/a2sv_progress_tracker/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 <!---LeetCode Topics End-->
