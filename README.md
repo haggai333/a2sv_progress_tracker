@@ -38,6 +38,7 @@ A personal repository for tracking my competitive programming journey during the
 | ------- | ------- |
 | [0695-max-area-of-island](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
+| [0875-koko-eating-bananas](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0875-koko-eating-bananas/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/haggai333/a2sv_progress_tracker/tree/main/1732-find-the-highest-altitude/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
@@ -73,4 +74,8 @@ A personal repository for tracking my competitive programming journey during the
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1732-find-the-highest-altitude](https://github.com/haggai333/a2sv_progress_tracker/tree/main/1732-find-the-highest-altitude/) | Easy |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0875-koko-eating-bananas](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0875-koko-eating-bananas/) | Medium |
 <!---LeetCode Topics End-->
