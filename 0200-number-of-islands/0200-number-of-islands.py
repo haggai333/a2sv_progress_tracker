@@ -14,7 +14,6 @@ class Solution(object):
                     if n>-1 and n<len(grid) and p>-1 and p<len(grid[0]) and grid[n][p]!="0":
                         queue.append((n,p))
                         grid[n][p]="0"
-                         
         for i in range(len(grid)):
             for j in range(len(grid[0])):
                 if grid[i][j]!="0":
