@@ -39,6 +39,7 @@ A personal repository for tracking my competitive programming journey during the
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0049-group-anagrams/) | Medium |
+| [0200-number-of-islands](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0200-number-of-islands/) | Medium |
 | [0695-max-area-of-island](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0875-koko-eating-bananas/) | Medium |
@@ -46,23 +47,27 @@ A personal repository for tracking my competitive programming journey during the
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0200-number-of-islands/) | Medium |
 | [0547-number-of-provinces](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0547-number-of-provinces/) | Medium |
 | [0695-max-area-of-island](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0200-number-of-islands/) | Medium |
 | [0547-number-of-provinces](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0547-number-of-provinces/) | Medium |
 | [0695-max-area-of-island](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0200-number-of-islands/) | Medium |
 | [0695-max-area-of-island](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0200-number-of-islands/) | Medium |
 | [0547-number-of-provinces](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0547-number-of-provinces/) | Medium |
 | [0695-max-area-of-island](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0695-max-area-of-island/) | Medium |
 ## Graph Theory
