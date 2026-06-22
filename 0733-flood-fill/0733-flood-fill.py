@@ -1,17 +1,21 @@
 class Solution(object):
     def floodFill(self, image, sr, sc, color):
+        stack=deque()
         visited=set()
-        og=image[sr][sc]
-        def dfs(i,j):
-            if i<0 or i>len(image)-1 or j<0 or j>len(image[0])-1 or (i,j) in visited or image[i][j]!=og:
-                return
-            visited.add((i,j))
+        stack.append((sr,sc))
+        need=image[sr][sc]
+        dirs=[(1,0),(0,1),(-1,0),(0,-1)]
+        while stack:
+            i,j=stack.popleft()
             image[i][j]=color
-            dfs(i-1,j)
-            dfs(i+1,j)
-            dfs(i,j+1)
-            dfs(i,j-1)
-        dfs(sr,sc)
+            visited.add((i,j))
+            for xi,yj in dirs:
+                x=xi+i
+                y=yj+j
+                if y>-1 and y<len(image[0]) and x>-1 and x<len(image) and (x,y) not in visited and image[x][y]==need: 
+                    stack.append((x,y))
         return image
+
+
 
         
