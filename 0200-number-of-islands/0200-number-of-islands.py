@@ -4,6 +4,7 @@ class Solution(object):
         def bfs(i,j):
             queue=deque()
             queue.append((i,j))
+            grid[i][j]="0"
             dir=[(1,0),(0,1),(-1,0),(0,-1)]
             while queue:
                 x,y=queue.popleft()
