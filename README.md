@@ -29,6 +29,7 @@ A personal repository for tracking my competitive programming journey during the
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0049-group-anagrams/) | Medium |
+| [1189-maximum-number-of-balloons](https://github.com/haggai333/a2sv_progress_tracker/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [3612-process-string-with-special-operations-i](https://github.com/haggai333/a2sv_progress_tracker/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
@@ -84,8 +85,13 @@ A personal repository for tracking my competitive programming journey during the
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0049-group-anagrams/) | Medium |
+| [1189-maximum-number-of-balloons](https://github.com/haggai333/a2sv_progress_tracker/tree/main/1189-maximum-number-of-balloons/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0049-group-anagrams/) | Medium |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1189-maximum-number-of-balloons](https://github.com/haggai333/a2sv_progress_tracker/tree/main/1189-maximum-number-of-balloons/) | Easy |
 <!---LeetCode Topics End-->
