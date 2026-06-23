@@ -54,6 +54,7 @@ A personal repository for tracking my competitive programming journey during the
 | [0547-number-of-provinces](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0547-number-of-provinces/) | Medium |
 | [0695-max-area-of-island](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
+| [1971-find-if-path-exists-in-graph](https://github.com/haggai333/a2sv_progress_tracker/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -63,6 +64,7 @@ A personal repository for tracking my competitive programming journey during the
 | [0695-max-area-of-island](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0994-rotting-oranges/) | Medium |
+| [1971-find-if-path-exists-in-graph](https://github.com/haggai333/a2sv_progress_tracker/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -77,10 +79,12 @@ A personal repository for tracking my competitive programming journey during the
 | [0200-number-of-islands](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0200-number-of-islands/) | Medium |
 | [0547-number-of-provinces](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0547-number-of-provinces/) | Medium |
 | [0695-max-area-of-island](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0695-max-area-of-island/) | Medium |
+| [1971-find-if-path-exists-in-graph](https://github.com/haggai333/a2sv_progress_tracker/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0547-number-of-provinces](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0547-number-of-provinces/) | Medium |
+| [1971-find-if-path-exists-in-graph](https://github.com/haggai333/a2sv_progress_tracker/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
