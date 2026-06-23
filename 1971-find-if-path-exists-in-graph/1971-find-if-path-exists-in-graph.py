@@ -5,13 +5,11 @@ class Solution(object):
         graph=[]
         self.answer=False
         for i in range(len(edges)):
-            for _ in range(2):
                 p,j=edges[i]
                 while len(graph)<p+1 or len(graph)<j+1:
                     graph.append([])
                 graph[p].append(j)
                 graph[j].append(p)
-                    
         visited=set()
         def dfs(i):
             if self.answer:
