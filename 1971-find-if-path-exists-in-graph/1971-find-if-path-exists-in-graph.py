@@ -18,6 +18,8 @@ class Solution(object):
                     if p not in visited:
                         visited.add(p)
                         dfs(p)
+                        if self.answer:
+                            return
                     if p==destination:
                         self.answer=True
                         return
