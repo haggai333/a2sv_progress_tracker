@@ -2,7 +2,7 @@ class Solution(object):
     def validPath(self, n, edges, source, destination):
         if source==destination:
             return True
-        graph=[[] for i in range(n)]
+        graph=[[] for _ in range(n)]
 
         self.answer=False
         for i in range(len(edges)):
