@@ -2,12 +2,11 @@ class Solution(object):
     def validPath(self, n, edges, source, destination):
         if source==destination:
             return True
-        graph=[]
+        graph=[[] for i in range(n)]
+
         self.answer=False
         for i in range(len(edges)):
                 p,j=edges[i]
-                while len(graph)<p+1 or len(graph)<j+1:
-                    graph.append([])
                 graph[p].append(j)
                 graph[j].append(p)
         visited=set()
