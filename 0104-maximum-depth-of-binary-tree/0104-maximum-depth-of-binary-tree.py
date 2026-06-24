@@ -6,13 +6,7 @@
 #         self.right = right
 class Solution(object):
     def maxDepth(self, root):
-        self.answer=0
-        def searchdepth(roots,i):
-            if roots==None:
-                self.answer=max(self.answer,i)
-                return
-            searchdepth(roots.left,i+1)
-            searchdepth(roots.right,i+1)
-        searchdepth(root,0)
-        return self.answer
+        if not root:
+            return 0
+        return 1+ max(self.maxDepth(root.left),self.maxDepth(root.right))
         
