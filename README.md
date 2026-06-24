@@ -49,6 +49,7 @@ A personal repository for tracking my competitive programming journey during the
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0200-number-of-islands](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0200-number-of-islands/) | Medium |
 | [0463-island-perimeter](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0463-island-perimeter/) | Easy |
 | [0547-number-of-provinces](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0547-number-of-provinces/) | Medium |
@@ -58,6 +59,7 @@ A personal repository for tracking my competitive programming journey during the
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0200-number-of-islands](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0200-number-of-islands/) | Medium |
 | [0463-island-perimeter](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0463-island-perimeter/) | Easy |
 | [0547-number-of-provinces](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0547-number-of-provinces/) | Medium |
@@ -110,4 +112,12 @@ A personal repository for tracking my competitive programming journey during the
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1189-maximum-number-of-balloons](https://github.com/haggai333/a2sv_progress_tracker/tree/main/1189-maximum-number-of-balloons/) | Easy |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 <!---LeetCode Topics End-->
