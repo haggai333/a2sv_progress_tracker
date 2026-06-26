@@ -4,7 +4,6 @@ class KthLargest(object):
         self.heap=[]
         self.k=k
         for i in nums:
-            print i
             self.add(i)
         
 
