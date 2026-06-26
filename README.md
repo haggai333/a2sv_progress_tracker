@@ -45,6 +45,7 @@ A personal repository for tracking my competitive programming journey during the
 | [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0994-rotting-oranges](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0994-rotting-oranges/) | Medium |
+| [1046-last-stone-weight](https://github.com/haggai333/a2sv_progress_tracker/tree/main/1046-last-stone-weight/) | Easy |
 | [1732-find-the-highest-altitude](https://github.com/haggai333/a2sv_progress_tracker/tree/main/1732-find-the-highest-altitude/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
@@ -120,4 +121,8 @@ A personal repository for tracking my competitive programming journey during the
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1046-last-stone-weight](https://github.com/haggai333/a2sv_progress_tracker/tree/main/1046-last-stone-weight/) | Easy |
 <!---LeetCode Topics End-->
