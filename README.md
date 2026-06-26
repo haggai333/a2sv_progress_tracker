@@ -40,6 +40,7 @@ A personal repository for tracking my competitive programming journey during the
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0049-group-anagrams/) | Medium |
 | [0200-number-of-islands](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0200-number-of-islands/) | Medium |
+| [0215-kth-largest-element-in-an-array](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0463-island-perimeter](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0463-island-perimeter/) | Easy |
 | [0695-max-area-of-island](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
@@ -109,6 +110,7 @@ A personal repository for tracking my competitive programming journey during the
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0049-group-anagrams/) | Medium |
+| [0215-kth-largest-element-in-an-array](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -124,5 +126,14 @@ A personal repository for tracking my competitive programming journey during the
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [1046-last-stone-weight](https://github.com/haggai333/a2sv_progress_tracker/tree/main/1046-last-stone-weight/) | Easy |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+## Quickselect
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 <!---LeetCode Topics End-->
