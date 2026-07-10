@@ -1,16 +1,15 @@
 class Solution(object):
     def findContentChildren(self, g, s):
-        g.sort()
-        s.sort()
-        l=0
-        r=0
-        count=0
-        while l<len(g) and r<len(s):
-            if s[r]>=g[l]:
-                count+=1
-                r+=1
-                l+=1
+        g.sort(reverse=True)
+        s.sort(reverse=True)
+        answer=0
+        while g and s:
+            if s[-1]>=g[-1]:
+                answer+=1
+                g.pop()
+                s.pop()
             else:
-                r+=1
-        return count
-                
+                s.pop()
+        return answer
+
+        
