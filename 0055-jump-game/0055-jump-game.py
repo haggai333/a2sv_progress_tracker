@@ -5,12 +5,8 @@ class Solution(object):
         while i<len(nums)-1:
             if furthest<i:
                 return False
-            for j in range(i,i+nums[i]):
-                if j<len(nums)-1:
-                    if furthest<j+nums[j]:
-                        furthest=j+nums[j]
-                else:
-                    return True
+            if furthest<i+nums[i]:
+                furthest=i+nums[i] 
             i+=1
         return furthest>=len(nums)-1
 
