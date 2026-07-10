@@ -43,6 +43,7 @@ A personal repository for tracking my competitive programming journey during the
 | [0215-kth-largest-element-in-an-array](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0455-assign-cookies](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0455-assign-cookies/) | Easy |
 | [0463-island-perimeter](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0463-island-perimeter/) | Easy |
+| [0605-can-place-flowers](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0605-can-place-flowers/) | Easy |
 | [0695-max-area-of-island](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0875-koko-eating-bananas/) | Medium |
@@ -161,4 +162,5 @@ A personal repository for tracking my competitive programming journey during the
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0455-assign-cookies](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0455-assign-cookies/) | Easy |
+| [0605-can-place-flowers](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0605-can-place-flowers/) | Easy |
 <!---LeetCode Topics End-->
