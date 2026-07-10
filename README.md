@@ -39,6 +39,7 @@ A personal repository for tracking my competitive programming journey during the
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0049-group-anagrams/) | Medium |
+| [0055-jump-game](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0055-jump-game/) | Medium |
 | [0200-number-of-islands](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0200-number-of-islands/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0455-assign-cookies](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0455-assign-cookies/) | Easy |
@@ -161,6 +162,11 @@ A personal repository for tracking my competitive programming journey during the
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0055-jump-game](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0055-jump-game/) | Medium |
 | [0455-assign-cookies](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0455-assign-cookies/) | Easy |
 | [0605-can-place-flowers](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0605-can-place-flowers/) | Easy |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0055-jump-game](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0055-jump-game/) | Medium |
 <!---LeetCode Topics End-->
