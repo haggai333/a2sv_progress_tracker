@@ -41,6 +41,7 @@ A personal repository for tracking my competitive programming journey during the
 | [0049-group-anagrams](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0049-group-anagrams/) | Medium |
 | [0200-number-of-islands](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0200-number-of-islands/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+| [0455-assign-cookies](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0455-assign-cookies/) | Easy |
 | [0463-island-perimeter](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0463-island-perimeter/) | Easy |
 | [0695-max-area-of-island](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0733-flood-fill/) | Easy |
@@ -111,6 +112,7 @@ A personal repository for tracking my competitive programming journey during the
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0049-group-anagrams/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+| [0455-assign-cookies](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0455-assign-cookies/) | Easy |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -151,4 +153,12 @@ A personal repository for tracking my competitive programming journey during the
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0455-assign-cookies](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0455-assign-cookies/) | Easy |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0455-assign-cookies](https://github.com/haggai333/a2sv_progress_tracker/tree/main/0455-assign-cookies/) | Easy |
 <!---LeetCode Topics End-->
