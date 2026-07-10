@@ -1,9 +1,5 @@
 class Solution(object):
     def canJump(self, nums):
-        if len(nums)<=1:
-            return True
-        if nums and nums[0]==0:
-            return False
         i=0
         furthest=0
         while i<len(nums)-1:
