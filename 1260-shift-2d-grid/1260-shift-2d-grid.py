@@ -17,6 +17,5 @@ class Solution(object):
                 print(1)
                 a.append(q.popleft())
             grid.append(a)
-            a=[]
         return grid
         
